@@ -1,6 +1,6 @@
 view: medicare {
   derived_table: {
-    sql: SELECT * FROM `bigquery-public-data.medicare.part_d_prescriber_2014`  LIMIT 1000
+    sql: SELECT * FROM `bigquery-public-data.medicare.part_d_prescriber_2014`
       ;;
   }
 
