@@ -26,4 +26,9 @@ view: order_items {
     type: count
     drill_fields: [order_item_id]
   }
+
 }
+# view: order {
+#   extends: [order_items]
+#   dimension: customer_id {}
+# }

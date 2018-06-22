@@ -12,3 +12,12 @@ include: "*.dashboard.lookml"  # include all dashboards in this project
 #     sql_on:  ;;
 #   }
 # }
+
+
+# explore: order {
+#   join: customers {
+#     type: left_outer
+#     sql_on: ${order.customer_id} = ${customers.customer_id} ;;
+#     relationship: many_to_one
+#   }
+# }
